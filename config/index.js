@@ -15,15 +15,15 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  isShowColor: true,
+  isShowColor: false,
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [ohBZz6MblsF-_WGgr2IxCpaLd184
+  USERS: ["ohBZz6MblsF-_WGgr2IxCpaLd184"]
     {
       // 想要发送的人的名字
-      name: "001",
+      name: "妹",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "wxc90fcbd0b20dd3e3",
       // 你想对他发送的模板消息的模板ID
